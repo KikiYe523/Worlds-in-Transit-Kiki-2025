@@ -32,7 +32,7 @@ export default class Index {
     this.sources = [
       {
         type: "model",
-        src: "/model/cat2.glb",
+        src: `${import.meta.env.VITE_MODEL_PATH_PREFIX}/model/cat2.glb`,
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
         caption:

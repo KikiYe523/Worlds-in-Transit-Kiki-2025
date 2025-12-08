@@ -6,7 +6,7 @@ import gsap from "gsap";
 import tunnelVideo from "./assets/tunnel.mp4";
 import bgMusic from "./assets/train.MP3";
 import Model from "./model";
-import Model2 from "./model2";
+// import Model2 from "./model2";
 // import { manager } from "./manager";
 import { HDRI } from "./environment";
 import { postprocessing } from "./postprocessing";
@@ -460,7 +460,8 @@ function openCustomPage(parentName) {
   // 从parent名称中提取数字，如 "1glb" -> "1"
   const pageNumber = parentName.replace("glb", "");
   // 根据数字动态构建页面路径
-  const pageUrl = `./src/page${pageNumber}/index.html`;
+  // 使用环境变量来区分开发和生产环境的路径
+  const pageUrl = `${import.meta.env.VITE_PAGE_URL_PREFIX}/page${pageNumber}/index.html`;
   window.open(pageUrl, "_blank");
   // 暂停背景音乐
   backgroundMusic.pause();
