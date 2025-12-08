@@ -31,7 +31,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-1.jpg",
+        src: "/static/img/page1/image-1.jpg",
         caption:
           "30 knots <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2021",
       },
@@ -39,7 +39,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-2.jpg",
+        src: "/static/img/page1/image-2.JPG",
         caption:
           "Sad Mis-Step <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2024",
       },
@@ -47,7 +47,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-3.jpg",
+        src: "/static/img/page1/image-3.JPG",
         caption:
           "Mini Orange <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2014",
       },
@@ -55,7 +55,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-4.jpg",
+        src: "/static/img/page1/image-4.jpg",
         caption:
           "After Storm <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -63,7 +63,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-5.jpg",
+        src: "/static/img/page1/image-5.JPG",
         caption:
           "Untitled <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2016",
       },
@@ -71,7 +71,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-6.jpg",
+        src: "/static/img/page1/image-6.JPG",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -79,7 +79,7 @@ export default class Index {
         type: "video",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/video-1.MP4",
+        src: "/static/img/page1/video-1.mp4",
         caption:
           "Cocoa Eggplant Tomato <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2025",
       },
@@ -87,7 +87,7 @@ export default class Index {
         type: "video",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/video-2.MP4",
+        src: "/static/img/page1/video-2.mp4",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -95,7 +95,7 @@ export default class Index {
         type: "video",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/video-3.MP4",
+        src: "/static/img/page1/video-3.MP4",
         caption:
           "Production Fun Fact (Eggs) <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2024",
       },
@@ -103,7 +103,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-7.jpg",
+        src: "/static/img/page1/image-7.jpg",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -111,7 +111,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-8.jpg",
+        src: "/static/img/page1/image-8.jpg",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -119,7 +119,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-9.jpg",
+        src: "/static/img/page1/image-9.jpg",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
@@ -127,7 +127,7 @@ export default class Index {
         type: "image",
         detail:
           "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-        src: "../../static/img/page1/image-10.jpg",
+        src: "/static/img/page1/image-10.jpg",
         caption:
           "Toilet Paper <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2022",
       },
