@@ -4,7 +4,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 gsap.registerPlugin(SplitText);
-import bg from "../../../static/img/page4/bg4.MP4";
+// import bg from "../../../static/img/page4/bg4.mp4";
 export default class InfiniteGrid {
   constructor({ el, sources, data, originalSize }) {
     this.$container = el;
@@ -181,7 +181,7 @@ export default class InfiniteGrid {
   createVideoBackground() {
     // 创建视频元素
     this.videoBg = document.createElement("video");
-    this.videoBg.src = bg;
+    this.videoBg.src = `${import.meta.env.VITE_MODEL_PATH_PREFIX}/bg/bg4.mp4`;
     this.videoBg.className = "hero-background-video";
     this.videoBg.autoplay = true;
     this.videoBg.loop = true;
