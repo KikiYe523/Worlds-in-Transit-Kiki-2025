@@ -1,0 +1,135 @@
+@import "../util";
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+  cursor: grab;
+  #images {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+
+    .hero-background-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      will-change: transform;
+      white-space: normal;
+      z-index: 1;
+      .item-wrapper {
+        will-change: transform;
+        scale: 1.3;
+      }
+      .item-image {
+        overflow: hidden;
+        position: relative;
+
+        img {
+          width: auto;
+          height: auto;
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          display: block;
+          will-change: transform;
+        }
+
+        // video 类型的内容，铺满格子区域
+        video.item-video {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          display: block;
+          z-index: 1;
+        }
+
+        // 视频播放按钮（首帧封面中间的 ▶）
+        .item-video-play {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          border: none;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          font-size: 20px;
+          line-height: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          z-index: 2;
+          transition: background 0.2s ease, transform 0.2s ease,
+            opacity 0.2s ease;
+        }
+
+        .item-video-play:hover {
+          background: rgba(0, 0, 0, 0.8);
+          transform: translate(-50%, -50%) scale(1.05);
+        }
+
+        .item-video-play.is-hidden {
+          opacity: 0;
+          pointer-events: none;
+        }
+
+        // model 类型时，Three.js 渲染的 canvas
+        canvas {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          pointer-events: none;
+          /* 调试用背景色：确认是否能看到模型容器 */
+          /* background: rgba(255, 0, 0, 0.1); */
+        }
+      }
+      small {
+        width: 100%;
+        display: block;
+        font-size: 8rem;
+        line-height: 1.25;
+        margin-top: 12rem;
+        .line-mask {
+          transition: transform 2s $in-out;
+          .line {
+            transition: transform 2s $in-out;
+          }
+        }
+      }
+      small:not(.visible) {
+        .line-mask {
+          transform: translateY(100%);
+          .line {
+            transform: translateY(110%);
+          }
+        }
+      }
+    }
+  }
+}
+html.dragging #hero {
+  cursor: grabbing;
+}
