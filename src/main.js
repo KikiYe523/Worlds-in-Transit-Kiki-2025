@@ -460,7 +460,7 @@ function openCustomPage(parentName) {
   // 从parent名称中提取数字，如 "1glb" -> "1"
   const pageNumber = parentName.replace("glb", "");
   // 根据数字动态构建页面路径
-  const pageUrl = `/src/page${pageNumber}/index.html`;
+  const pageUrl = `./src/page${pageNumber}/index.html`;
   window.open(pageUrl, "_blank");
   // 暂停背景音乐
   backgroundMusic.pause();
