@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git lfs track \"*.MP4\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Git LFS tracking for video files (*.mp4, *.mov, *.MP4)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []
