@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Git LFS tracking for video files (*.mp4, *.mov, *.MP4)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)",
+      "Bash(dir /B src)",
+      "Bash(pnpm run build)",
+      "Bash(dir /B \"C:\\Users\\admin\\Desktop\\kiki\\kiki\\src\\page1\\styles\")",
+      "Bash(dir /B \"C:\\Users\\admin\\Desktop\\kiki\\kiki\\src\\page1\\js\\components\")",
+      "Bash(dir /B \"C:\\Users\\admin\\Desktop\\kiki\\kiki\\docs\\assets\")",
+      "Bash(findstr /I \"page1\")",
+      "Bash(test -f \"C:\\Users\\admin\\Desktop\\kiki\\kiki\\docs\\src\\page1\\index.html\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
