@@ -41,7 +41,7 @@ export default class Index {
       {
         type: "image",
         detail:
-          "this is page3 image1 title",
+          "this is page3 image111 title",
         src: "/static/img/page3/image-1.JPG",
         caption:
           "30 knots <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2021",
@@ -49,7 +49,7 @@ export default class Index {
       {
         type: "image",
         detail:
-          "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+          "this is page3 image222 title",
         src: "/static/img/page3/image-2.JPG",
         caption:
           "Sad Mis-Step <br>12 x 16 inch C type hand print <br>Edition of 1 Plus an additional artist Proof <br>2024",
